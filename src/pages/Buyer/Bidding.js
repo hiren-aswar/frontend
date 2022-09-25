@@ -65,19 +65,19 @@ const Bidding = () => {
             <Header />
             <div className="flex">
 
-                <div ref={content} className=' flex-1 px-14 py-8 space-y-7 overflow-y-scroll h-screen bg-white'>
+                <div ref={content} className=' flex-1 px-14 py-8 space-y-7 overflow-y-scroll h-screen '>
                     <Heading />
                     <div className="box_cont flex gap-5">
-                        <div className={` text-sm box_shadow border flex flex-col gap-2  box_shadow rounded-lg py-3 cursor-pointer w-44 px-3 ${status === 'processing' && 'bg-buyer-primary text-white'} `} onClick={status_proccess}>
+                        <div className={` text-sm box_shadow border flex flex-col gap-2  bg-white box_shadow rounded-lg py-3 cursor-pointer w-44 px-3 ${status === 'processing' && 'bg-buyer-primary text-white'} `} onClick={status_proccess}>
                             <Box content={'Processing'} />
                         </div>
-                        <div className={` text-sm box_shadow border flex flex-col gap-2  box_shadow rounded-lg py-3 cursor-pointer w-44 px-3 ${status === 'active' && 'bg-buyer-primary text-white'} `} onClick={status_active}>
+                        <div className={` text-sm box_shadow border flex flex-col gap-2 bg-white box_shadow rounded-lg py-3 cursor-pointer w-44 px-3 ${status === 'active' && 'bg-buyer-primary text-white'} `} onClick={status_active}>
                             <Box content={'Active'} />
                         </div>
-                        <div className={` text-sm box_shadow border flex flex-col gap-2  box_shadow rounded-lg py-3 cursor-pointer w-44 px-3 ${status === 'pending' && 'bg-buyer-primary text-white'} `} onClick={status_pending}>
+                        <div className={` text-sm box_shadow border flex flex-col gap-2 bg-white box_shadow rounded-lg py-3 cursor-pointer w-44 px-3 ${status === 'pending' && 'bg-buyer-primary text-white'} `} onClick={status_pending}>
                             <Box content={'Pending'} />
                         </div>
-                        <div className={` text-sm box_shadow border flex flex-col gap-2  box_shadow rounded-lg py-3 cursor-pointer w-44 px-3 ${status === 'previous' && 'bg-buyer-primary text-white'} `} onClick={status_previous}>
+                        <div className={` text-sm box_shadow border flex flex-col gap-2 bg-white box_shadow rounded-lg py-3 cursor-pointer w-44 px-3 ${status === 'previous' && 'bg-buyer-primary text-white'} `} onClick={status_previous}>
                             <Box content={'Previous'} />
                         </div>
                     </div>

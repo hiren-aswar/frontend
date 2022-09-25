@@ -41,7 +41,7 @@ const Content = ({ user }) => {
         <BuyerBox color='button_2' growth={false} icon_set='icon_setting' icon={FrameIcon} />
 
         {/* the third Box start */}
-        <div className=' box_shadow  border flex flex-col p-4 bg-white rounded'>
+        <div className=' box_shadow  border flex flex-col p-4 bg-white rounded-md'>
           <h1 className=' text-buyer-small_heading text-lg font-semibold mb-6'>Total Biddings</h1>
           <div className='content_box flex flex-col mt-3 gap-3'>
             <div className="line_1 flex items-start  justify-between">

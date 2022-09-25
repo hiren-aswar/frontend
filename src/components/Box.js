@@ -3,7 +3,7 @@ import {MdKeyboardArrowRight} from 'react-icons/md'
 const Box = ({content}) => {
  
   return (
-    <div>
+    <div >
         <div>
             <div className=' flex justify-between'>
                  <h1>{content}</h1>

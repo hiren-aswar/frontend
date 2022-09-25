@@ -8,7 +8,7 @@ import {BiLineChartDown} from 'react-icons/bi'
 
 const BuyerBox = ({ color, icon, icon_set ,growth }) => {
   return (
-    <div className='box_shadow border flex flex-col p-4 bg-white rounded'>
+    <div className='box_shadow border flex flex-col p-4 bg-white rounded-md'>
       <div className="icon_box flex justify-between">
         <img className={`${icon_set}`} src={icon} alt="" srcSet="" />
         <div>

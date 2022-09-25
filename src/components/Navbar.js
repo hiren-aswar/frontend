@@ -51,7 +51,7 @@ const Navbar = ({ user }) => {
               </NavLink>
 
 
-              <NavLink to={'/Track'} className='flex cursor-pointer dash_menu_li  p-3 px-5 rounded-lg  items-center justify-between'>
+              <NavLink to={'/trackshipment'} className='flex cursor-pointer dash_menu_li  p-3 px-5 rounded-lg  items-center justify-between'>
                 <div className='flex gap-6 items-center'>
                   <FaTruck size={18} />
                   Track Shipment
